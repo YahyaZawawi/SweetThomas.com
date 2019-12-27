@@ -1,0 +1,384 @@
+/* font-family: 'Pacifico', cursive;
+font-family: 'Fjalla One', sans-serif;
+#FA4347;
+##F7EBED;
+#6E0608; */
+
+
+/* desktop */
+@media only screen and (min-width: 961px) {
+
+  /* TOP SECTION */
+  body {
+    background-color: #F7EBED !important;
+  }
+
+  .cart__img {
+    width: 5vw;
+    margin-right: 4%;
+  }
+
+  .logo__div {
+    text-align: center;
+    margin-top: 2vw;
+  }
+
+  .cart__div {
+    text-align: right;
+  }
+
+  .logo__h1 {
+    font-family: 'Pacifico', cursive;
+    color: #6E0608;
+    font-size: 3.5vw;
+  }
+
+  /* LEFT SECTION */
+  .lu-cake__div {
+    text-align: center;
+    padding-right: 4vw;
+  }
+
+  ul {
+    list-style-type: none;
+  }
+
+  li {
+    margin-bottom: 4vw !important;
+  }
+
+  .cup-cake__p {
+    display: block;
+    margin-top: 0.5vw;
+    font-family: 'Fjalla One', sans-serif;
+    color: #FA4347;
+  }
+
+  .cup-cake__p:hover {
+    color: #6E0608;
+  }
+
+  .cup-cake__a:hover {
+    text-decoration: none;
+    color: #6E0608;
+  }
+
+  /* ICONS SECTION */
+  .icon {
+    display: inline-block;
+    width: 72px;
+    height: 77px;
+    background-size: cover;
+  }
+
+  .cup-cake-icon {
+    background-image: url(../images/cup-cake-pinky.svg);
+  }
+
+  .cup-cake-icon:hover {
+    background-image: url(../images/cup-cake.svg);
+  }
+
+  .icon-ice {
+    display: inline-block;
+    width: 72px;
+    height: 156px;
+    background-size: cover;
+  }
+
+  .ice-cream-icon {
+    background-image: url(../images/ice-cream.svg);
+  }
+
+  .ice-cream-icon:hover {
+    background-image: url(../images/ice-cream-dark.svg);
+  }
+
+  .icon-donut {
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    background-size: cover;
+  }
+
+  .donut-icon {
+    background-image: url(../images/donut.svg);
+  }
+
+  .donut-icon:hover {
+    background-image: url(../images/donut-dark.svg);
+  }
+
+  .icon-mac {
+    display: inline-block;
+    width: 116px;
+    height: 79px;
+    background-size: cover;
+  }
+
+  .macaron-icon {
+    background-image: url(../images/macaron.svg);
+  }
+
+  .macaron-icon:hover {
+    background-image: url(../images/macaron-dark.svg);
+  }
+
+  .icon-croissant {
+    display: inline-block;
+    width: 142px;
+    height: 80px;
+    background-size: cover;
+  }
+
+  .croissant-icon {
+    background-image: url(../images/croissant.svg);
+  }
+
+  .croissant-icon:hover {
+    background-image: url(../images/croissant-dark.svg);
+  }
+
+  .icon-pop {
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    background-size: cover;
+  }
+
+  .pop-icon {
+    background-image: url(../images/cake-pop.svg);
+  }
+
+  .pop-icon:hover {
+    background-image: url(../images/cake-pop-dark.svg);
+  }
+
+  /* SECOND LEFT SECTION */
+  .left__div__img {
+    text-align: left;
+    padding-top: 20vw;
+  }
+
+  .pinky__h4 {
+    font-family: 'Fjalla One', sans-serif;
+    color: #FA4347;
+  }
+
+  .pinky__p {
+    color: #6E0608;
+  }
+
+  /* MIDDLE SECTION */
+  .mid__div {
+    text-align: center;
+  }
+
+  .middle__img {
+    width: 25vw;
+    margin-top: 7.5vw;
+  }
+
+  /* RIGHT SECTION */
+  .right__div__img {
+    text-align: left;
+    padding-top: 20vw;
+  }
+
+  .price__h4 {
+    color: #FA4347;
+    margin-bottom: 1vw;
+  }
+
+  .btn {
+    color: #6E0608 !important;
+    border-color: #6E0608 !important;
+  }
+
+  .btn:hover {
+    color: #F7EBED !important;
+    border-color: #F7EBED !important;
+    background-color: #6E0608 !important;
+  }
+
+  /* LAST RIGHT SECTION */
+  .ul__div {
+    text-align: center;
+    padding-top: 55vh;
+  }
+
+  .social__img {
+    width: 2vw;
+  }
+}
+
+.col-2 {
+  height: 20vw !important;
+}
+
+/* BOTTOM SIDE */
+.container {
+  margin-top: 10vw;
+}
+
+.card-group {
+  margin-left: 5vw !important;
+}
+
+#images-size {
+  width: 15vw;
+  height: 15vw;
+}
+
+.card {
+  background-color: #ff5f5f00 !important;
+  border: none !important;
+}
+
+.bottom__img__div {
+  text-align: center !important;
+}
+
+.card-body {
+  margin: auto 1.5vw !important;
+}
+
+.card-title {
+  font-family: 'Fjalla One', sans-serif;
+  color: #FA4347;
+}
+
+.card-text {
+  color: #6E0608;
+}
+
+.card-footer {
+  background-color: #F7EBED !important;
+}
+
+.price__strong__div {
+  text-align: right;
+  display: inline-block;
+  margin-left: 45%;
+}
+
+.price__strong {
+  color: #6E0608;
+}
+
+.add__a__div {
+  display: inline-block;
+}
+
+/* FOOTER SECTION */
+.footer__title {
+  color: #6E0608;
+
+}
+
+.footer__footer {
+  margin-top: 18vw;
+  padding-top: 5vw;
+  padding-left: 5vw;
+}
+
+
+/* CAKE SECTION */
+.about__cake__div{}
+
+.img__cake__div {}
+
+  .price__cake__div{}
+
+    .cake__card__bottom{}
+
+/* ICE CREAM SECTION */
+.about__ice__cream__div {
+  text-align: left;
+  display: none;
+}
+
+.img__ice__cream__div {
+  display: none;
+}
+
+.price__ice__cream__div {
+  display: none;
+}
+
+.ice__cream__card__bottom {
+  display: none!important ;
+}
+
+/* DONUTS */
+.about__donuts__div {
+  text-align: left;
+  display: none;
+}
+
+.img__donuts__div {
+  display: none;
+}
+
+.price__donuts__div {
+  display: none;
+}
+
+.donuts__card__bottom {
+  display: none !important;
+}
+
+/* MACARONS */
+.about__macaron__div {
+  text-align: left;
+  display: none;
+}
+
+.img__macron__div {
+  display: none;
+}
+
+.price__macaron__div {
+  display: none;
+}
+
+.macaron__card__bottom {
+  display: none !important;
+}
+
+/* CROISSANT */
+.about__croissants__div {
+  text-align: left;
+  display: none;
+}
+
+.img__croissant__div {
+  display: none;
+}
+
+.price__croissant__div {
+  display: none;
+}
+
+.croissant__card__bottom {
+  display: none !important;
+}
+
+/* POPS */
+.about__pops__div {
+  text-align: left;
+  display: none;
+}
+
+.img__pops__div {
+  display: none;
+}
+
+.price__pops__div {
+  display: none;
+}
+
+.pops__card__bottom {
+  display: none !important;
+}
+}
